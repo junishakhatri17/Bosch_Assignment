@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 3%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.root {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: '100%' 
+}
+.grow {
+  flex-grow: 1;
+}
+.toolBar {
+  background: "#32567e"
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-user {
+
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.profileHeader {
+  min-height: 25%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profileContent {
+  margin-bottom: 3%;
+}
+
+.profileImg {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.profileValues {
+  margin: 4%;
+  margin-right: 0;
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  overflow-x: auto;
+  font-size: 1.2em;
+  font-family: cursive;
+}
+
+.label {
+  display: block;
+  margin: 8%;     
+  border: 0.5px solid #ccc;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  font-family: cursive;
+}
+.table-click {
+  cursor: pointer;
+}
+.MuiInput-root{
+  margin-left: 20px;
+}
+.MuiFormControl-root {
+  display: flex;
+}
